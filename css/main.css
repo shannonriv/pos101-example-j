@@ -1,0 +1,60 @@
+body {
+    background: skyblue;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+p {
+    display: block;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#nav {
+    position: static;
+    height: 50px;
+    background: greenyellow;
+}
+
+#nav a {
+    display: block;
+    float: left;
+    color: white;
+    padding: 0 20px;
+    line-height: 50px;
+    border-right: 1px solid green;
+}
+
+#content {
+    position: relative;
+    padding-top: 20px;
+    padding-right: 250px;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    background: white; 
+}
+
+#callout {
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    right: -80px;
+    width: 210px;
+    padding: 0 20px;
+    border-top: 5px solid orangered;
+    background: peru;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 860px;
+    padding: 0 20px;
+    background: pink;
+}
